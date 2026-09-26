@@ -29,24 +29,22 @@ nav a {
 nav a:hover {
     color: #f0c040;
 }
-
-header#hero {
+header {
     background-color: #1b3a6b;
     color: #ffffff;
+}
+#hero {
     text-align: center;
     padding: 120px 20px;
 }
-
-header#hero h1 {
+#hero h1 {
     font-size: 48px;
     margin-bottom: 15px;
+    #hero p {
+        font-size: 20px;
+        color: #f0c040;
+    }
 }
-
-header#hero p {
-    font-size: 20px;
-    color: #f0c040;
-}
-
 #about {
     background-color: #ffffff;
     padding: 60px 20px;
@@ -134,7 +132,7 @@ footer {
     margin-bottom: 20px;
     border: 2px solid #e0e0e0;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 32px;
 }
 
 #contact-form textarea {
@@ -144,7 +142,7 @@ footer {
 #contact-form button {
     width: 100%;
     padding: 15px;
-    background-color: #1b3a6b;
+    background-color: #030252;
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -153,6 +151,6 @@ footer {
 }
 
 #contact-form button:hover {
-    background-color: #f0c040;
+    background-color: #e7ab07;
     color: #1b3a6b;
 }
